@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "coc:blocks/labb",
+    "up": "coc:blocks/labtop",
+    "north": "coc:blocks/labf",
+    "east": "coc:blocks/lab_side",
+    "south": "coc:blocks/lab_side",
+    "west": "coc:blocks/lab_side",
+    "particle": "coc:blocks/labb"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "coc:lab"
+    },
+    "facing=north": {
+      "model": "coc:lab"
+    },
+    "facing=east": {
+      "model": "coc:lab",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "coc:lab",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "coc:lab",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "_fv": 17,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 141,
+          "y": 44
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "start",
+          "width": 50,
+          "height": 20,
+          "name": "start",
+          "x": 138,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 213,
+          "y": 44
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "Uyfuyf"
+          },
+          "onStackTransfer": {
+            "name": "Uyfuyf"
+          },
+          "name": "Slot #3",
+          "x": 141,
+          "y": 98
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "paper",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "paper",
+          "x": 240,
+          "y": 44
+        }
+      }
+    ]
+  }
+}

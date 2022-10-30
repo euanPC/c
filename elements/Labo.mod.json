@@ -1,0 +1,23 @@
+{
+  "_fv": 17,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Lab",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Lab",
+          "x": 186,
+          "y": 53
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}
