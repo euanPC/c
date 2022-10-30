@@ -133,7 +133,7 @@
       "name": "LabOnBlockRightClicked",
       "type": "procedure",
       "sortid": 6,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "lab_on_block_right_clicked",
