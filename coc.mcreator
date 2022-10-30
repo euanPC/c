@@ -133,7 +133,7 @@
       "name": "LabOnBlockRightClicked",
       "type": "procedure",
       "sortid": 6,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "lab_on_block_right_clicked",
@@ -179,6 +179,52 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "lr"
+    },
+    {
+      "name": "TestLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test_living_entity_is_hit_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],
@@ -187,7 +233,8 @@
     "en_us": {
       "tile.lab.name": "Lab",
       "item.research.name": "Research",
-      "item.flame_thrower.name": "Flame Thrower"
+      "item.flame_thrower.name": "Flame Thrower",
+      "item.test.name": "Test"
     }
   },
   "foldersRoot": {

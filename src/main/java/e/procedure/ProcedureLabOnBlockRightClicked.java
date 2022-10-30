@@ -12,10 +12,11 @@ import net.minecraft.init.Items;
 import net.minecraft.init.Blocks;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.Entity;
-
+import com.dhanantry.scapeandrunparasites.init.SRPPotions;
 import java.util.Map;
 
 import e.item.ItemResearch;
+import e.item.ItemFlameThrower;
 
 import e.gui.GuiLabg;
 
@@ -82,7 +83,8 @@ public class ProcedureLabOnBlockRightClicked extends ElementsCocMod.ModElement {
 							return ((TileEntityLockableLoot) inv).getStackInSlot(sltid);
 						return ItemStack.EMPTY;
 					}
-				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(Items.DIAMOND, (int) (1)).getItem()))
+				}.getItemStack(new BlockPos((int) x, (int) y, (int) z), (int) (1))).getItem() == new ItemStack(ItemFlameThrower.block, (int) (1))
+						.getItem()))
 				&& ((new Object() {
 					public ItemStack getItemStack(BlockPos pos, int sltid) {
 						TileEntity inv = world.getTileEntity(pos);
